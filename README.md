@@ -41,68 +41,42 @@ To cite the contents of this repository, please cite both the paper and this rep
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+This repository provides the following resources for reproducing the results in our paper:
 
-## Building
+- Test problems used in the study (`data` folder).
+- Source code for Strong Partitioning (`src` folder).
+- Sample scripts for running experiments (`scripts` folder).
+- Raw experimental results (`results` folder).
 
-In Linux, to build the version that multiplies all elements of a vector by a
-constant (used to obtain the results in [Figure 1](results/mult-test.png) in the
-paper), stepping K elements at a time, execute the following commands.
+Each folder includes a `README` file with additional details.
 
-```
-make mult
-```
+## Setup and Installation
 
-Alternatively, to build the version that sums the elements of a vector (used
-to obtain the results [Figure 2](results/sum-test.png) in the paper), stepping K
-elements at a time, do the following.
+Follow the instructions in the `src` folder to install and configure the code. The implementation depends on the following software versions:
 
-```
-make clean
-make sum
-```
+- Julia 1.6.3
+- JuMP 1.1.1
+- Alpine 0.4.1
+- Gurobi 9.1.2 (via Gurobi.jl 0.11.3)
+- BARON 23.6.23 (via BARON.jl 0.8.2)
+- CPLEX 22.1.0
+- Ipopt 3.14.4 (via Ipopt.jl 1.0.3)
+- KNitro 12.4.0 (via KNITRO.jl 0.13.0)
+- scikit-learn 0.23.2
 
-Be sure to make clean before building a different version of the code.
 
-## Results
-
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/mult-test.png)
-
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/sum-test.png)
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/mult-test), do either
+To replicate the experiments, follow the instructions provided in the `README` files within each subfolder of the `scripts` directory. The output should match the corresponding results in the `results` folder.
 
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
 
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
+## Contact
 
-## Ongoing Development
+For questions or feedback, please contact:
+- Rohit Kannan: rohitkannan@vt.edu
+- Harsha Nagarajan: harsha@lanl.gov
+- Deepjyoti Deka: deepj87@mit.edu
 
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
-
-## Support
-
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
+Alternatively, you may open an
+[issue on GitHub](https://github.com/rohitkannan/2023.0424/issues/new).
