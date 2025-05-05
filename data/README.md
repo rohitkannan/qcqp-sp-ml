@@ -27,4 +27,4 @@ python3 generate_pooling_instances.py --numInstances 1000
 Additional data files for generating the pooling instances can be found within the `pooling` folder. These data files were generated using the scripts [here](https://github.com/poolinginstances/poolinginstances).
 
 
-The `bilinear`, `qcqp`, and `pooling` folders contain the Julia instances used in the paperalong with their best-found solutions and optimal objective values. These folders also include the termwise McCormick relaxations of the instances and supporting JSON files.
+The `bilinear`, `qcqp`, and `pooling` folders contain the Julia instances used in the paper along with their best-found solutions and optimal objective values. These folders also include the termwise McCormick relaxations of the instances and supporting JSON files.

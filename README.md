@@ -1,40 +1,41 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# CacheTest
+# Strong Partitioning and a Machine Learning Approximation for Accelerating the Global Optimization of Nonconvex QCQPs
 
 This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+Computing](https://pubsonline.informs.org/journal/ijoc) under a [License from Triad National Security, LLC](LICENSE).
 
 The software and data in this repository are a snapshot of the software and data
-that were used in the research reported on in the paper 
-[This is a Template](https://doi.org/10.1287/ijoc.2019.0000) by T. Ralphs. 
-The snapshot is based on 
-[this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
-in the development repository. 
+that were used in the research reported [in the paper](https://doi.org/10.1287/ijoc.2023.0424) by R. Kannan, H. Nagarajan, and D. Deka. 
 
-**Important: This code is being developed on an on-going basis at 
-https://github.com/tkralphs/JoCTemplate. Please go there if you would like to
-get a more recent version or would like support**
 
 ## Cite
 
 To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
 
-https://doi.org/10.1287/ijoc.2019.0000
+[The journal article](https://doi.org/10.1287/ijoc.2023.0424):
 
-https://doi.org/10.1287/ijoc.2019.0000.cd
-
-Below is the BibTex for citing this snapshot of the repository.
-
+```bibtex
+@article{kannan2025strong,
+  author = {Kannan, Rohit and Nagarajan, Harsha and Deka, Deepjyoti},
+  title = {Strong Partitioning and a Machine Learning Approximation for Accelerating the Global Optimization of Nonconvex {QCQPs}},
+  journal = {INFORMS Journal on Computing},
+  year = {2025},
+  doi = {10.1287/ijoc.2023.0424},
+}
 ```
-@misc{CacheTest,
-  author =        {T. Ralphs},
+
+[This repository](https://doi.org/10.1287/ijoc.2023.0424.cd):
+
+```bibtex
+@misc{kannan2025github,
+  author =        {Kannan, Rohit and Nagarajan, Harsha and Deka, Deepjyoti},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{CacheTest}},
-  year =          {2020},
-  doi =           {10.1287/ijoc.2019.0000.cd},
-  url =           {https://github.com/INFORMSJoC/2019.0000},
-  note =          {Available for download at https://github.com/INFORMSJoC/2019.0000},
+  title =         {Strong Partitioning and a Machine Learning Approximation for Accelerating the Global Optimization of Nonconvex {QCQPs}},
+  year =          {2025},
+  doi =           {10.1287/ijoc.2023.0424.cd},
+  url =           {https://github.com/INFORMSJoC/2023.0424},
+  note =          {Available for download at https://github.com/INFORMSJoC/2023.0424},
 }  
 ```
 
