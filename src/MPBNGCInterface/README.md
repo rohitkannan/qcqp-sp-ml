@@ -11,6 +11,8 @@
   doi = {10.1287/ijoc.2023.0424},
 }
 ```
+The remainder of this README file is reproduced from the original MPBNGCInterface README.
+
 
 MPBNGCInterface.jl is a Julia module that interfaces
 the Fortran77 code 
