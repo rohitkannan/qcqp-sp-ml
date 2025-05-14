@@ -1,17 +1,11 @@
-[![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
 # Strong Partitioning and a Machine Learning Approximation for Accelerating the Global Optimization of Nonconvex QCQPs
 
-This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under a [License from Triad National Security, LLC](LICENSE).
-
-The software and data in this repository are a snapshot of the software and data
-that were used in the research reported [in the paper](https://doi.org/10.1287/ijoc.2023.0424) by R. Kannan, H. Nagarajan, and D. Deka. 
-
+This archive is distributed under a [License from Triad National Security, LLC](LICENSE).
 
 ## Cite
 
-To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
+To cite the contents of this repository, please cite both the paper and the INFORMS Journal on Computing GitHub repo, using their respective DOIs.
 
 [The journal article](https://doi.org/10.1287/ijoc.2023.0424):
 
@@ -25,7 +19,7 @@ To cite the contents of this repository, please cite both the paper and this rep
 }
 ```
 
-[This repository](https://doi.org/10.1287/ijoc.2023.0424.cd):
+[IJoC repository](https://doi.org/10.1287/ijoc.2023.0424.cd):
 
 ```bibtex
 @misc{kannan2025github,
@@ -79,4 +73,4 @@ For questions or feedback, please contact:
 - Deepjyoti Deka: deepj87@mit.edu
 
 Alternatively, please open an
-[issue on the original GitHub repository](https://github.com/rohitkannan/qcqp-sp-ml/issues/new) instead of this one.
+[issue on this GitHub repository](https://github.com/rohitkannan/qcqp-sp-ml/issues/new).
